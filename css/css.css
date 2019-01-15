@@ -1,0 +1,349 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body, h3, p {
+    font-family: pt-sans-pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: din-condensed, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 16px;
+    word-spacing: -.2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+header#home {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/happy_moments_cover_bg_lg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#portfolio {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/gallery_engagement_cover_lg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#engagement_portfolio {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/header_cover_engagement_portfolio.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#wedding_portfolio {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/header_cover_bg_m_01.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#investment-sm {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/investment_cover_lg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#contact-sm {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/contact_cover_sm.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hover-halo:hover {
+    border: #46BDDF solid 1px;
+}
+
+.click_me {
+    cursor: pointer;
+}
+
+.click_me:hover {
+    font-weight: bold;
+}
+
+div.margin-top-1 {
+    margin-top: 30px;
+}
+
+div.header-logo {
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-width {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white-text {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: #EDEDED;
+}
+
+.header-logo {
+    position: relative;
+    top: 52%;
+}
+
+hr {
+    border-top: 1px solid white;
+    border-bottom: 0px;
+    max-width: 500px;
+}
+
+.statement-of-purpose {
+    background-color: #EDEDED;
+}
+
+.flex-center-vertically {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section.inspiration {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#treasure {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.20),rgba(10,10,10,1)), url("../imgs/bg_covers/happy_moments_cover_bg_lg_2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#dream {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.20),rgba(10,10,10,1)), url("../imgs/bg_covers/dream_cover_bg_lg_2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#investment {
+    background: url("../imgs/investment.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+.inspiration div.text {
+    position: relative;
+    top: 52%;
+    color: white;
+}
+
+.margin-top-1 {
+    margin-top: 30px !important;
+  }
+
+div.row.instagram img {
+    padding-top: 30px;
+}
+
+
+
+/* WRAPPER HORIZONTAL SCROLL */
+
+.wrapper {
+    position: relative;
+    background: #EFEFEF;
+    margin: auto;
+    width: 100%;
+}
+.scrolls {
+    padding-top: 50px;
+    padding-bottom: 53px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 500px;
+}
+.imageDiv {
+    height: 100px;
+    width: 5190px;
+}
+.imageDiv img {
+    margin: 2px 12px 2px 2px;
+/* 		max-height: 50px; */
+    cursor: pointer;
+}
+
+/* BUTTON */
+
+.simple-button {
+    width: 150px;
+    margin-top: 20px;
+    border: 1px solid #46BDDF;
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-family: pt-sans-pro, sans-serif;
+    -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 2s;
+    color: #46BDDF;
+}
+
+a.simple-button:hover, a.simple-button:focus,
+p.simple-button:hover,
+p.simple-button:focus {
+  background-color: #46BDDF !important;
+  color: white;
+  font-weight: bold;
+}
+
+.simple-button-wht {
+    width: 150px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-family: pt-sans-pro, sans-serif;
+    color: white;
+    -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 2s;
+}
+
+a.simple-button-wht:hover, a.simple-button-wht:focus,
+p.simple-button-wht:hover,
+p.simple-button-wht:focus {
+  background-color: white !important;
+  color: #46BDDF;
+  border: 1px solid #46BDDF;
+  font-weight: bold;
+}
+
+a {
+    color: #46BDDF;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #46BDDF;
+}
+  
+a:hover, a:active {
+    text-decoration: none;
+    color: #46BDDF;
+    font-weight: bold;
+}
+
+a.light:link, a.light:visited {
+    text-decoration: none;
+    color: #46BDDF;
+}
+  
+a.light:hover, a.light:active {
+    text-decoration: none;
+    color: #46BDDF;
+}
+
+/* INVESTMENT AREA - PRICING TABLE */
+
+.hour-table {
+    margin-top: 20px;
+    height: 90px;
+}
+
+.hour-table ul.hours {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 6px;
+}
+
+.hour-table ul.hours li {
+    display: inline-block;
+    width: 13%;
+    position: relative;
+    top: 10px;
+    -webkit-transition: ease-in .15s; /* Safari */
+    transition: ease-in .15s;
+}
+
+.hour-table ul.ticks li {
+    display: inline-block;
+    width: 13%;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.selected {
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    padding: 0 6px;
+    background-color: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
