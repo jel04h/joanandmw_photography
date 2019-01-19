@@ -89,6 +89,14 @@ header#contact-sm {
     background-size: cover;
 }
 
+header#about {
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(10,10,10,.30),rgba(10,10,10,1)), url("../imgs/bg_covers/about_cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 header {
     height: 100vh;
     margin-left: auto;

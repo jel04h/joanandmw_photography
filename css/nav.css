@@ -108,6 +108,15 @@ header#contact-xs {
     position: relative;
 }
 
+header#about-xs {
+    background: linear-gradient(rgba(10,10,10,.7),rgba(10,10,10,.10),rgba(0,0,0,0),rgba(0,0,0,0)), url("../imgs/bg_covers/about_cover_xs.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 header.main-xs-nav .vert-navigation {
     position: absolute;
     bottom: 0;
