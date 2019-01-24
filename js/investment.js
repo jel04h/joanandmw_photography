@@ -1,4 +1,4 @@
-
+let hourly = 300;
 
 document.getElementById("shooting_hours_02").onclick = function() {givePrice2()};
 function givePrice2() {
