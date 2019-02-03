@@ -9,7 +9,7 @@ function givePrice2() {
     if (checkBox.checked == true){
         document.getElementById("investment_totals").innerHTML = "$800 TOTAL ($400/HR) + TAX";
     } else {
-        document.getElementById("investment_totals").innerHTML = "$650 TOTAL ($325/HR) + TAX";
+        document.getElementById("investment_totals").innerHTML = "$680 TOTAL ($340/HR) + TAX";
     }
 }
 
@@ -22,7 +22,7 @@ function givePrice3() {
     if (checkBox.checked == true){
         document.getElementById("investment_totals").innerHTML = "$1,185 TOTAL ($395/HR) + TAX";
     } else {
-        document.getElementById("investment_totals").innerHTML = "$960 TOTAL ($320/HR) + TAX";
+        document.getElementById("investment_totals").innerHTML = "$990 TOTAL ($330/HR) + TAX";
     }
 }
 
@@ -35,7 +35,7 @@ function givePrice4() {
     if (checkBox.checked == true){
         document.getElementById("investment_totals").innerHTML = "$1,560 TOTAL ($390/HR) + TAX";
     } else {
-        document.getElementById("investment_totals").innerHTML = "$1,260 TOTAL ($315/HR) + TAX";
+        document.getElementById("investment_totals").innerHTML = "$1,280 TOTAL ($320/HR) + TAX";
     }
 }
 
@@ -61,7 +61,7 @@ function givePrice6() {
     if (checkBox.checked == true){
         document.getElementById("investment_totals").innerHTML = "$2,280 TOTAL ($380/HR) + TAX";
     } else {
-        document.getElementById("investment_totals").innerHTML = "$1,830 TOTAL ($305/HR) + TAX";
+        document.getElementById("investment_totals").innerHTML = "$1,800 TOTAL ($300/HR) + TAX";
     }
 }
 
@@ -74,7 +74,7 @@ function givePrice7() {
     if (checkBox.checked == true){
         document.getElementById("investment_totals").innerHTML = "$2,625 TOTAL ($375/HR) + TAX";
     } else {
-        document.getElementById("investment_totals").innerHTML = "$2,100 TOTAL ($300/HR) + TAX";
+        document.getElementById("investment_totals").innerHTML = "$2,030 TOTAL ($290/HR) + TAX";
     }
 }
 
@@ -87,6 +87,6 @@ function givePrice8() {
     if (checkBox.checked == true){
         document.getElementById("investment_totals").innerHTML = "$2,960 TOTAL ($370/HR) + TAX";
     } else {
-        document.getElementById("investment_totals").innerHTML = "$2,360 TOTAL ($295/HR) + TAX";
+        document.getElementById("investment_totals").innerHTML = "$2,240 TOTAL ($280/HR) + TAX";
     }
 }
