@@ -103,6 +103,11 @@ header {
     margin-right: auto;
 }
 
+.side-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .hover-halo {
     border: none;
 }
